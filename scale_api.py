@@ -11,8 +11,8 @@ CORS(app)
 def read_serial():
     f = open('port.txt')
     port = f.readline().strip()
-    ser = serial.Serial(port, 9600, timeout=1)
-    value = ser.read(70)
+    ser = serial.Serial(port, 9600, timeout=2)
+    value = ser.read(77)
     response = parse_value(value)
     return json.dumps(response)
 
