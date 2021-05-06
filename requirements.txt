@@ -4,7 +4,7 @@ chardet==3.0.4
 Click==7.0
 curtsies==0.3.0
 Flask==1.0.4
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 greenlet==0.4.15
 idna==2.8
 itsdangerous==1.1.0
